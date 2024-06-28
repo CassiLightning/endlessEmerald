@@ -6205,6 +6205,7 @@ u32 GetBattlerAbility(u32 battler)
     if (((IsMoldBreakerTypeAbility(gBattleMons[gBattlerAttacker].ability)
             && !(gStatuses3[gBattlerAttacker] & STATUS3_GASTRO_ACID))
             || gMovesInfo[gCurrentMove].ignoresTargetAbility)
+            && battler != gBattlerAttacker
             && gAbilitiesInfo[gBattleMons[battler].ability].breakable
             && noAbilityShield
             && gBattlerByTurnOrder[gCurrentTurnActionNumber] == gBattlerAttacker
@@ -10567,12 +10568,12 @@ bool32 CanBattlerFormChange(u32 battler, u16 method)
     return DoesSpeciesHaveFormChangeMethod(gBattleMons[battler].species, method);
 }
 
-bool32 TryBattleFormChange(u32 battler, u16 method)
+bool32 TryBattleFormChange(u32 battler, u32 method)
 {
-    u8 monId = gBattlerPartyIndexes[battler];
-    u8 side = GetBattlerSide(battler);
+    u32 monId = gBattlerPartyIndexes[battler];
+    u32 side = GetBattlerSide(battler);
     struct Pokemon *party = GetBattlerParty(battler);
-    u16 targetSpecies;
+    u32 targetSpecies;
 
     if (!CanBattlerFormChange(battler, method))
         return FALSE;
@@ -10610,10 +10611,14 @@ bool32 TryBattleFormChange(u32 battler, u16 method)
 
         if (restoreSpecies)
         {
+            u32 abilityForm = gBattleMons[battler].ability;
             // Reverts the original species
             TryToSetBattleFormChangeMoves(&party[monId], method);
             SetMonData(&party[monId], MON_DATA_SPECIES, &gBattleStruct->changedSpecies[side][monId]);
             RecalcBattlerStats(battler, &party[monId]);
+            // Battler data is not updated with regular form's ability, not doing so could cause wrong ability activation.
+            if (method == FORM_CHANGE_FAINT)
+                gBattleMons[battler].ability = abilityForm;
             return TRUE;
         }
     }

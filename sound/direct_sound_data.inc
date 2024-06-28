@@ -6155,6 +6155,330 @@ Cry_Pecharunt::
 .endif @ P_FAMILY_PECHARUNT
 
 	.align 2
+Cry_0001x0001::
+	.incbin "sound/direct_sound_samples/cries/0001x0001.bin"
+
+	.align 2
+Cry_0001x0002::
+	.incbin "sound/direct_sound_samples/cries/0001x0002.bin"
+
+	.align 2
+Cry_0001x0003::
+	.incbin "sound/direct_sound_samples/cries/0001x0003.bin"
+
+	.align 2
+Cry_0001x0004::
+	.incbin "sound/direct_sound_samples/cries/0001x0004.bin"
+
+	.align 2
+Cry_0001x0005::
+	.incbin "sound/direct_sound_samples/cries/0001x0005.bin"
+
+	.align 2
+Cry_0001x0006::
+	.incbin "sound/direct_sound_samples/cries/0001x0006.bin"
+
+	.align 2
+Cry_0001x0007::
+	.incbin "sound/direct_sound_samples/cries/0001x0007.bin"
+
+	.align 2
+Cry_0001x0008::
+	.incbin "sound/direct_sound_samples/cries/0001x0008.bin"
+
+	.align 2
+Cry_0001x0009::
+	.incbin "sound/direct_sound_samples/cries/0001x0009.bin"
+
+	.align 2
+Cry_0002x0001::
+	.incbin "sound/direct_sound_samples/cries/0002x0001.bin"
+
+	.align 2
+Cry_0002x0002::
+	.incbin "sound/direct_sound_samples/cries/0002x0002.bin"
+
+	.align 2
+Cry_0002x0003::
+	.incbin "sound/direct_sound_samples/cries/0002x0003.bin"
+
+	.align 2
+Cry_0002x0004::
+	.incbin "sound/direct_sound_samples/cries/0002x0004.bin"
+
+	.align 2
+Cry_0002x0005::
+	.incbin "sound/direct_sound_samples/cries/0002x0005.bin"
+
+	.align 2
+Cry_0002x0006::
+	.incbin "sound/direct_sound_samples/cries/0002x0006.bin"
+
+	.align 2
+Cry_0002x0007::
+	.incbin "sound/direct_sound_samples/cries/0002x0007.bin"
+
+	.align 2
+Cry_0002x0008::
+	.incbin "sound/direct_sound_samples/cries/0002x0008.bin"
+
+	.align 2
+Cry_0002x0009::
+	.incbin "sound/direct_sound_samples/cries/0002x0009.bin"
+
+	.align 2
+Cry_0003x0001::
+	.incbin "sound/direct_sound_samples/cries/0003x0001.bin"
+
+	.align 2
+Cry_0003x0002::
+	.incbin "sound/direct_sound_samples/cries/0003x0002.bin"
+
+	.align 2
+Cry_0003x0003::
+	.incbin "sound/direct_sound_samples/cries/0003x0003.bin"
+
+	.align 2
+Cry_0003x0004::
+	.incbin "sound/direct_sound_samples/cries/0003x0004.bin"
+
+	.align 2
+Cry_0003x0005::
+	.incbin "sound/direct_sound_samples/cries/0003x0005.bin"
+
+	.align 2
+Cry_0003x0006::
+	.incbin "sound/direct_sound_samples/cries/0003x0006.bin"
+
+	.align 2
+Cry_0003x0007::
+	.incbin "sound/direct_sound_samples/cries/0003x0007.bin"
+
+	.align 2
+Cry_0003x0008::
+	.incbin "sound/direct_sound_samples/cries/0003x0008.bin"
+
+	.align 2
+Cry_0003x0009::
+	.incbin "sound/direct_sound_samples/cries/0003x0009.bin"
+
+	.align 2
+Cry_0004x0001::
+	.incbin "sound/direct_sound_samples/cries/0004x0001.bin"
+
+	.align 2
+Cry_0004x0002::
+	.incbin "sound/direct_sound_samples/cries/0004x0002.bin"
+
+	.align 2
+Cry_0004x0003::
+	.incbin "sound/direct_sound_samples/cries/0004x0003.bin"
+
+	.align 2
+Cry_0004x0004::
+	.incbin "sound/direct_sound_samples/cries/0004x0004.bin"
+
+	.align 2
+Cry_0004x0005::
+	.incbin "sound/direct_sound_samples/cries/0004x0005.bin"
+
+	.align 2
+Cry_0004x0006::
+	.incbin "sound/direct_sound_samples/cries/0004x0006.bin"
+
+	.align 2
+Cry_0004x0007::
+	.incbin "sound/direct_sound_samples/cries/0004x0007.bin"
+
+	.align 2
+Cry_0004x0008::
+	.incbin "sound/direct_sound_samples/cries/0004x0008.bin"
+
+	.align 2
+Cry_0004x0009::
+	.incbin "sound/direct_sound_samples/cries/0004x0009.bin"
+
+	.align 2
+Cry_0005x0001::
+	.incbin "sound/direct_sound_samples/cries/0005x0001.bin"
+
+	.align 2
+Cry_0005x0002::
+	.incbin "sound/direct_sound_samples/cries/0005x0002.bin"
+
+	.align 2
+Cry_0005x0003::
+	.incbin "sound/direct_sound_samples/cries/0005x0003.bin"
+
+	.align 2
+Cry_0005x0004::
+	.incbin "sound/direct_sound_samples/cries/0005x0004.bin"
+
+	.align 2
+Cry_0005x0005::
+	.incbin "sound/direct_sound_samples/cries/0005x0005.bin"
+
+	.align 2
+Cry_0005x0006::
+	.incbin "sound/direct_sound_samples/cries/0005x0006.bin"
+
+	.align 2
+Cry_0005x0007::
+	.incbin "sound/direct_sound_samples/cries/0005x0007.bin"
+
+	.align 2
+Cry_0005x0008::
+	.incbin "sound/direct_sound_samples/cries/0005x0008.bin"
+
+	.align 2
+Cry_0005x0009::
+	.incbin "sound/direct_sound_samples/cries/0005x0009.bin"
+
+	.align 2
+Cry_0006x0001::
+	.incbin "sound/direct_sound_samples/cries/0006x0001.bin"
+
+	.align 2
+Cry_0006x0002::
+	.incbin "sound/direct_sound_samples/cries/0006x0002.bin"
+
+	.align 2
+Cry_0006x0003::
+	.incbin "sound/direct_sound_samples/cries/0006x0003.bin"
+
+	.align 2
+Cry_0006x0004::
+	.incbin "sound/direct_sound_samples/cries/0006x0004.bin"
+
+	.align 2
+Cry_0006x0005::
+	.incbin "sound/direct_sound_samples/cries/0006x0005.bin"
+
+	.align 2
+Cry_0006x0006::
+	.incbin "sound/direct_sound_samples/cries/0006x0006.bin"
+
+	.align 2
+Cry_0006x0007::
+	.incbin "sound/direct_sound_samples/cries/0006x0007.bin"
+
+	.align 2
+Cry_0006x0008::
+	.incbin "sound/direct_sound_samples/cries/0006x0008.bin"
+
+	.align 2
+Cry_0006x0009::
+	.incbin "sound/direct_sound_samples/cries/0006x0009.bin"
+
+	.align 2
+Cry_0007x0001::
+	.incbin "sound/direct_sound_samples/cries/0007x0001.bin"
+
+	.align 2
+Cry_0007x0002::
+	.incbin "sound/direct_sound_samples/cries/0007x0002.bin"
+
+	.align 2
+Cry_0007x0003::
+	.incbin "sound/direct_sound_samples/cries/0007x0003.bin"
+
+	.align 2
+Cry_0007x0004::
+	.incbin "sound/direct_sound_samples/cries/0007x0004.bin"
+
+	.align 2
+Cry_0007x0005::
+	.incbin "sound/direct_sound_samples/cries/0007x0005.bin"
+
+	.align 2
+Cry_0007x0006::
+	.incbin "sound/direct_sound_samples/cries/0007x0006.bin"
+
+	.align 2
+Cry_0007x0007::
+	.incbin "sound/direct_sound_samples/cries/0007x0007.bin"
+
+	.align 2
+Cry_0007x0008::
+	.incbin "sound/direct_sound_samples/cries/0007x0008.bin"
+
+	.align 2
+Cry_0007x0009::
+	.incbin "sound/direct_sound_samples/cries/0007x0009.bin"
+
+	.align 2
+Cry_0008x0001::
+	.incbin "sound/direct_sound_samples/cries/0008x0001.bin"
+
+	.align 2
+Cry_0008x0002::
+	.incbin "sound/direct_sound_samples/cries/0008x0002.bin"
+
+	.align 2
+Cry_0008x0003::
+	.incbin "sound/direct_sound_samples/cries/0008x0003.bin"
+
+	.align 2
+Cry_0008x0004::
+	.incbin "sound/direct_sound_samples/cries/0008x0004.bin"
+
+	.align 2
+Cry_0008x0005::
+	.incbin "sound/direct_sound_samples/cries/0008x0005.bin"
+
+	.align 2
+Cry_0008x0006::
+	.incbin "sound/direct_sound_samples/cries/0008x0006.bin"
+
+	.align 2
+Cry_0008x0007::
+	.incbin "sound/direct_sound_samples/cries/0008x0007.bin"
+
+	.align 2
+Cry_0008x0008::
+	.incbin "sound/direct_sound_samples/cries/0008x0008.bin"
+
+	.align 2
+Cry_0008x0009::
+	.incbin "sound/direct_sound_samples/cries/0008x0009.bin"
+
+	.align 2
+Cry_0009x0001::
+	.incbin "sound/direct_sound_samples/cries/0009x0001.bin"
+
+	.align 2
+Cry_0009x0002::
+	.incbin "sound/direct_sound_samples/cries/0009x0002.bin"
+
+	.align 2
+Cry_0009x0003::
+	.incbin "sound/direct_sound_samples/cries/0009x0003.bin"
+
+	.align 2
+Cry_0009x0004::
+	.incbin "sound/direct_sound_samples/cries/0009x0004.bin"
+
+	.align 2
+Cry_0009x0005::
+	.incbin "sound/direct_sound_samples/cries/0009x0005.bin"
+
+	.align 2
+Cry_0009x0006::
+	.incbin "sound/direct_sound_samples/cries/0009x0006.bin"
+
+	.align 2
+Cry_0009x0007::
+	.incbin "sound/direct_sound_samples/cries/0009x0007.bin"
+
+	.align 2
+Cry_0009x0008::
+	.incbin "sound/direct_sound_samples/cries/0009x0008.bin"
+
+	.align 2
+Cry_0009x0009::
+	.incbin "sound/direct_sound_samples/cries/0009x0009.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 
